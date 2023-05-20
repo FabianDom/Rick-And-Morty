@@ -1,0 +1,56 @@
+.botonBack {
+  background-color: white;
+  font-family: "myfont";
+  position: absolute;
+  padding: 0px 4px;
+  padding-top: 2px;
+  border: solid;
+  border-radius: 5px;
+  top: 100px;
+  right: 95%;
+  color: rgba(29, 51, 71, 0.801);
+  font-size: 19px;
+}
+.botonBack:hover {
+  transform: translateX(2px);
+}
+
+.botonBack:hover {
+  cursor: pointer;
+}
+.imagen {
+  border-style: solid;
+  position: relative;
+  left: 65%;
+  top: 80px;
+  border-color: #2b3f4a;
+  width: 28%;
+  height: 10%;
+  transform: translateY(-50%);
+  animation: moveImage 3s infinite;
+}
+@keyframes moveImage {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.h1 {
+  font-family: "myfont";
+  position: absolute;
+  justify-content: center;
+  left: 150px;
+  top: 150px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.div {
+  display: flex;
+  flex-wrap: wrap;
+}

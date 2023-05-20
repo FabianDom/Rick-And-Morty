@@ -1,0 +1,35 @@
+.imgCards {
+  background-image: url("../img/rickymorty1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.div {
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1199.98px) {
+  div {
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 576px) and (orientation: landscape) {
+  div {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 35px;
+}

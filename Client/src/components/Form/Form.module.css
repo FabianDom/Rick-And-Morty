@@ -1,0 +1,91 @@
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 7px;
+  height: 90vh;
+}
+@media (min-width: 1199.98px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 7px;
+    height: 90vh;
+  }
+}
+@media (max-width: 576px) and (orientation: landscape) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 7px;
+    height: 90vh;
+  }
+}
+.form {
+  background-color: rgb(253, 252, 249);
+  border-radius: 20px;
+  overflow: auto;
+  width: 300px;
+  padding: 15px;
+  height: auto;
+}
+.inputs {
+  background-color: #fcf9f9;
+  border: 2px solid rgba(29, 51, 71, 0.801);
+  border-radius: 4px;
+  font-family: "Gill Sans";
+  font-size: 18px;
+  padding: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.inputs:valid {
+  border-color: green;
+}
+
+.inputs:invalid {
+  border-color: red;
+}
+.input:hover {
+  cursor: pointer;
+}
+
+.label {
+  display: block;
+  font-family: "myfont";
+  color: rgb(75, 74, 74);
+  font-size: 21px;
+}
+.botonlogin {
+  background-color: rgba(29, 51, 71, 0.801);
+  font-family: "myfont";
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.botonlogin:active {
+  background-color: #3d3f3fad;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botonlogin:hover {
+  transform: translateX(2px);
+}
+
+.botonlogin:hover {
+  cursor: pointer;
+}

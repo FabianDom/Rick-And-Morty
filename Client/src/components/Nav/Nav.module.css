@@ -1,0 +1,166 @@
+.nav {
+  background-color: #c9c4c4ec;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5px;
+  padding-bottom: 16px;
+  border-style: double;
+  border-color: #a7d4e2;
+}
+.nav a {
+  font-family: "myfont";
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 3px;
+}
+.img {
+  position: absolute;
+  top: 30px;
+  right: 910px;
+  transform: translateY(-50%);
+  animation: moveImage 3s infinite;
+}
+@keyframes moveImage {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.input {
+  position: relative;
+  left: 170px;
+  font-family: "myfont";
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  border: 1px solid #dee6e7;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.input:hover {
+  cursor: pointer;
+}
+.input:valid {
+  background-color: #2c404b;
+}
+
+.botonAdd {
+  position: relative;
+  left: 152px;
+  background-color: #128396;
+  font-family: "myfont";
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  border-radius: 3px;
+  border: 2px solid #fcf9f9;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+.botonAdd:hover {
+  transform: translateY(1px);
+}
+.botonAdd:hover {
+  cursor: pointer;
+}
+
+.boton {
+  position: relative;
+  bottom: 1px;
+  left: 180px;
+  background-color: #128396;
+  font-family: "myfont";
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 2px solid #fcf9f9;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+.boton:hover {
+  transform: translateX(2px);
+}
+
+.boton:hover {
+  cursor: pointer;
+}
+
+.spanAbout {
+  position: relative;
+  left: 30px;
+  top: 12px;
+  background-color: transparent;
+  border: none;
+  color: #128396;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+.spanAbout:hover {
+  transform: translateX(2px);
+}
+.spanAbout:hover {
+  cursor: pointer;
+}
+
+.spanHome {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 11px;
+  right: 180px;
+  color: #128396;
+  margin-left: 20px;
+}
+.spanHome:hover {
+  transform: translateX(2px);
+}
+
+.spanHome:hover {
+  cursor: pointer;
+}
+.botonLogout {
+  position: relative;
+  left: 220px;
+  background-color: #128396;
+  font-family: "myfont";
+  color: white;
+  font-size: 16px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  border: 2px solid #fcf9f9;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+.botonLogout:hover {
+  transform: translateX(2px);
+}
+
+.botonLogout:hover {
+  cursor: pointer;
+}
+.botonFav {
+  position: relative;
+  left: 240px;
+  top: 8px;
+  background-color: transparent;
+  border: none;
+  color: #128396;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+.botonFav:hover {
+  transform: translateY(2px);
+}
+
+.botonFav:hover {
+  cursor: pointer;
+}

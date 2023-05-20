@@ -1,0 +1,84 @@
+.tarjet {
+  background-image: url("../img/tarjeta2.JPG");
+  display: flex;
+  flex-direction: column;
+  border-style: hidden;
+  border-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 180px;
+  margin-top: 2px;
+  padding-top: 10px;
+}
+.tarjet:hover {
+  transform: translateY(5px);
+}
+a.linkDiv {
+  text-decoration: none;
+  font-family: "myfont";
+}
+.imagen {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.h2name {
+  font-family: "myfont";
+  color: white;
+  font-size: 16px;
+}
+
+.divh2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@font-face {
+  font-family: "myfont";
+  src: local("myfont"), url(../fonts/JandaManateeBubble.ttf) format("truetype");
+  text-decoration: none;
+}
+.h2 {
+  font-family: "myfont";
+  color: blanchedalmond;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.divboton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.boton {
+  position: absolute;
+  font-family: "myfont";
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.boton:hover {
+  transform: translateX(2px);
+}
+
+.boton:hover {
+  cursor: pointer;
+}
+
+.botonFav {
+  position: relative;
+  right: 140px;
+  font-size: 18px;
+}
+
+.botonFav:hover {
+  cursor: pointer;
+}
