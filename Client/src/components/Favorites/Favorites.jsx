@@ -62,6 +62,8 @@ function Favorites() {
               species={cards.species}
               gender={cards.gender}
               image={cards.image}
+              origin={cards.origin}
+              status={cards.status}
             />
           );
         })}

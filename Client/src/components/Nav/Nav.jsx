@@ -16,7 +16,9 @@ export default function Nav(props) {
   }
   return (
     <nav className={Styles.nav}>
-      <img className={Styles.img} src={img} width="210" height="60" />
+      <div className={Styles.logo}>
+        <img className={Styles.img} src={img} width="210" height="60" />
+      </div>
       <div>
         <Link className={Styles.navDiv} to="/favorites">
           <button className={Styles.botonFav}>

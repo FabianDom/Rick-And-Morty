@@ -2,26 +2,96 @@
   background-color: #c9c4c4ec;
   opacity: 0.6;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
-  padding: 5px;
+  padding: 4px;
+  overflow: hidden;
   padding-bottom: 16px;
   border-style: double;
   border-color: #a7d4e2;
 }
-.nav a {
-  font-family: "myfont";
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-  padding: 3px;
+
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móviles */
+
+  .nav {
+    .nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .input {
+      flex: 1;
+      margin: 0 100px;
+      display: flex;
+      position: absolute;
+      left: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .botonAdd {
+      flex: 1;
+      margin: 0 100px;
+      display: flex;
+      position: relative;
+      left: -5px;
+      top: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .spanHome {
+      margin-left: 10px;
+      position: relative;
+      top: 33px;
+      right: 180px;
+    }
+
+    .botonLogout {
+      margin-right: 10px;
+      position: relative;
+      bottom: 55px;
+      left: 160px;
+    }
+    .botonFav {
+      margin-right: 10px;
+      position: relative;
+      top: 30px;
+      left: 120px;
+    }
+
+    .boton {
+      display: none;
+    }
+    .spanAbout {
+      display: none;
+    }
+
+    .img {
+      display: none;
+    }
+  }
 }
 .img {
   position: absolute;
   top: 30px;
   right: 910px;
+  left: 30px;
   transform: translateY(-50%);
   animation: moveImage 3s infinite;
+}
+.logo {
+  flex: 0 0 auto; /* Establece el tamaño del contenedor para que no crezca ni se encoja */
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen dentro del contenedor */
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+  }
 }
 @keyframes moveImage {
   0% {
@@ -36,7 +106,7 @@
 }
 .input {
   position: relative;
-  left: 170px;
+  left: 150px;
   font-family: "myfont";
   color: white;
   font-size: 12px;
@@ -54,7 +124,7 @@
 
 .botonAdd {
   position: relative;
-  left: 152px;
+  left: 132px;
   background-color: #128396;
   font-family: "myfont";
   color: white;
@@ -116,7 +186,7 @@
   border: none;
   position: relative;
   top: 11px;
-  right: 180px;
+  right: 160px;
   color: #128396;
   margin-left: 20px;
 }
@@ -129,7 +199,7 @@
 }
 .botonLogout {
   position: relative;
-  left: 220px;
+  left: 240px;
   background-color: #128396;
   font-family: "myfont";
   color: white;
@@ -149,7 +219,7 @@
 }
 .botonFav {
   position: relative;
-  left: 240px;
+  left: 220px;
   top: 8px;
   background-color: transparent;
   border: none;

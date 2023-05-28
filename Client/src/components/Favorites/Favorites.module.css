@@ -11,6 +11,28 @@
   margin-right: 5px;
   margin-top: 35px;
 }
+@media (min-width: 1199.98px) {
+  div1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 35px;
+  }
+}
+@media (max-width: 576px) and (orientation: landscape) {
+  div1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 35px;
+  }
+}
 
 .botonBack {
   background-color: white;

@@ -1,3 +1,15 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 85px;
+  background-color: rgba(41, 120, 130, 0.5);
+  border-radius: 1.5rem;
+  border: 2px solid white;
+  box-shadow: 1px 2px 20px 0px #1c6878;
+}
+
 .botonBack {
   background-color: white;
   font-family: "myfont";
@@ -11,21 +23,21 @@
   color: rgba(29, 51, 71, 0.801);
   font-size: 19px;
 }
-.botonBack:hover {
-  transform: translateX(2px);
-}
 
 .botonBack:hover {
+  transform: translateX(2px);
   cursor: pointer;
 }
+
 .imagen {
   border-style: solid;
   position: relative;
-  left: 65%;
-  top: 80px;
-  border-color: #2b3f4a;
-  width: 28%;
-  height: 10%;
+  left: 150%;
+  top: 10px;
+  border-radius: 10px;
+  border-color: white;
+  width: 82%;
+  height: 50%;
   transform: translateY(-50%);
   animation: moveImage 3s infinite;
 }
@@ -40,6 +52,7 @@
     transform: scale(1);
   }
 }
+
 .h1 {
   font-family: "myfont";
   position: absolute;
@@ -50,7 +63,39 @@
   font-size: 15px;
   font-weight: bold;
 }
+
 .div {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 576px) {
+  .cardContainer {
+    padding: 30px; /* Ajusta el padding según tus necesidades */
+  }
+
+  .imagen {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    animation: none;
+  }
+
+  .h1 {
+    position: static;
+    justify-content: center;
+    left: auto;
+    top: auto;
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+    font-size: 18px; /* Ajusta el tamaño de fuente según tus necesidades */
+  }
+
+  .div {
+    justify-content: center;
+  }
 }
