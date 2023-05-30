@@ -31,13 +31,11 @@
 
 .imagen {
   border-style: solid;
-  position: relative;
-  left: 150%;
-  top: 10px;
+  margin-left: 400px;
   border-radius: 10px;
   border-color: white;
-  width: 82%;
-  height: 50%;
+  width: 36%;
+  height: 30%;
   transform: translateY(-50%);
   animation: moveImage 3s infinite;
 }
@@ -62,6 +60,7 @@
   color: white;
   font-size: 15px;
   font-weight: bold;
+  margin-left: 80px;
 }
 
 .div {
@@ -70,32 +69,35 @@
 }
 
 /* Media queries para dispositivos móviles */
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .cardContainer {
-    padding: 30px; /* Ajusta el padding según tus necesidades */
+    padding: 190px;
+    padding-left: 5px;
   }
 
   .imagen {
-    position: static;
-    left: auto;
-    top: auto;
-    transform: none;
-    width: 100%;
-    height: auto;
-    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
-    animation: none;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 110px;
+    margin-left: 60px;
+    margin-top: 80px;
   }
-
   .h1 {
-    position: static;
-    justify-content: center;
-    left: auto;
-    top: auto;
-    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
-    font-size: 18px; /* Ajusta el tamaño de fuente según tus necesidades */
+    position: absolute;
+    left: 23px;
+    margin-top: 10px;
+    bottom: 30px;
+    font-size: 12px;
   }
 
   .div {
+    display: flex;
     justify-content: center;
+  }
+  .botonBack {
+    position: relative;
+    top: -185px;
+    left: 4px;
   }
 }
