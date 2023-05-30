@@ -71,24 +71,24 @@
 /* Media queries para dispositivos móviles */
 @media (max-width: 767px) {
   .cardContainer {
-    padding: 190px;
+    padding: 200px;
     padding-left: 5px;
   }
 
   .imagen {
-    width: 80px;
-    height: 100px;
+    width: 110px;
+    height: 130px;
     position: absolute;
-    left: 110px;
-    margin-left: 60px;
-    margin-top: 80px;
+    left: 150px;
+    margin-left: 10px;
+    margin-top: 70px;
   }
   .h1 {
     position: absolute;
-    left: 23px;
-    margin-top: 10px;
+    left: 20px;
+    margin-top: 30px;
     bottom: 30px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .div {
@@ -96,6 +96,7 @@
     justify-content: center;
   }
   .botonBack {
+    padding: 2px;
     position: relative;
     top: -185px;
     left: 4px;

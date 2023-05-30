@@ -35,12 +35,11 @@
     }
 
     .botonAdd {
-      flex: 1;
       margin: 0 100px;
       display: flex;
       position: relative;
-      left: 103px;
-      top: 21px;
+      left: 90px;
+      top: 20px;
       padding: 5px;
       align-items: center;
       justify-content: center;
@@ -58,19 +57,19 @@
       padding: 3px;
       position: relative;
       bottom: 65px;
-      left: 125px;
+      left: 128px;
     }
     .botonFav {
       margin-right: 10px;
       position: relative;
       top: 51px;
-      left: 165px;
+      left: 155px;
     }
 
     .boton {
       font-size: 8px;
       position: relative;
-      top: 18px;
+      top: 15px;
       left: 20px;
       margin-right: 10px;
     }
