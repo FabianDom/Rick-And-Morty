@@ -8,30 +8,7 @@
   padding: 7px;
   height: 90vh;
 }
-@media (min-width: 1199.98px) {
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    padding: 7px;
-    height: 90vh;
-  }
-}
-@media (max-width: 576px) and (orientation: landscape) {
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    padding: 7px;
-    height: 90vh;
-  }
-}
+
 .form {
   background-color: rgb(253, 252, 249);
   border-radius: 20px;

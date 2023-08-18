@@ -11,22 +11,6 @@
   margin-right: 5px;
   margin-top: 35px;
 }
-@media (max-width: 767px) {
-  .div1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
-    justify-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 35px;
-  }
-  .botonBack {
-    position: static;
-    top: 200%;
-    right: 75%;
-  }
-}
 
 .botonBack {
   background-color: white;
@@ -56,8 +40,10 @@
 .select {
   position: relative;
   top: 33px;
-  right: 80px;
+  width: 15%;
+  right: 155px;
   padding: 4px;
+  padding-right: 10px;
   font-family: "myfont";
   font-size: 14px;
   border: 1px solid #ccc;
@@ -68,8 +54,10 @@
 
 .select1 {
   position: relative;
-  left: 50px;
+  left: 70px;
   padding: 4px;
+  width: 15%;
+  padding-right: 10px;
   font-family: "myfont";
   font-size: 14px;
   border: 1px solid #ccc;

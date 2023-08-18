@@ -48,11 +48,7 @@ function Favorites() {
           <option value="unknown">Unknown</option>
         </select>
       </div>
-      <Link to="/home">
-        <button className={Styles.botonBack}>
-          <RiLogoutBoxLine />
-        </button>
-      </Link>
+
       <div className={Styles.div1}>
         {myFavorites.map((cards) => {
           return (

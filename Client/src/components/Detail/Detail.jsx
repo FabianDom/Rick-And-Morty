@@ -27,17 +27,12 @@ export default function Detail(props) {
   return (
     <div className={Styles.cardContainer}>
       <div className={Styles.div}>
-        <Link to="/home">
-          <button className={Styles.botonBack}>
-            <RiLogoutBoxLine />
-          </button>
-        </Link>
         <div className={Styles.h1}>
-          <h1>Name:{character.name}</h1>
-          <h1>Status:{character.status}</h1>
-          <h1>Specie:{character.specie}</h1>
-          <h1>Gender:{character.gender}</h1>
-          <h1>Origin:{character.origin?.name}</h1>
+          <h1>Name: {character.name}</h1>
+          <h1>Status: {character.status}</h1>
+          <h1>Specie: {character.specie}</h1>
+          <h1>Gender: {character.gender}</h1>
+          <h1>Origin: {character.origin?.name}</h1>
         </div>
         <img className={Styles.imagen} src={character.image} alt="" />
       </div>

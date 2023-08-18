@@ -4,11 +4,11 @@
   flex-direction: column;
   border-style: hidden;
   border-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
-  width: 180px;
+  width: 190px;
   margin-top: 2px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .tarjet:hover {
   transform: translateY(5px);
@@ -58,12 +58,11 @@ a.linkDiv {
 .boton {
   position: absolute;
   font-family: "myfont";
-  font-size: 17px;
+  font-size: 19px;
   font-weight: bold;
   color: white;
-  margin-top: 2px;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .boton:hover {
   transform: translateX(2px);
@@ -75,7 +74,7 @@ a.linkDiv {
 
 .botonFav {
   position: relative;
-  right: 140px;
+  right: 145px;
   font-size: 18px;
 }
 
