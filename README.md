@@ -28,7 +28,7 @@
 
 ## Acceso a la Aplicación 🎉
 
-¡Explora la aplicación! Ver video [aplicación](https://pf-front-end-grupo3.vercel.app/).
+¡Explora la aplicación! Ver [video](https://youtu.be/eHMMRxW_rI4).
 
 ## Reportar Problemas 🐞
 
