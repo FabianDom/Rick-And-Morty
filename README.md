@@ -1,9 +1,9 @@
-# Aplicacion Rick And Morty 🚀
+# Aplicación Rick And Morty 🚀
 
 
 ¡Bienvenido al repositorio del proyecto integrador de Henry! Inspirado en la famosa serie de TV Rick and Morty. La aplicación permite a los usuarios buscar los personajes de toda la serie, agregarlos a favoritos, ver detalles de los personajes y más.
 
-## Características Destacadas 
+## Características Destacadas 🌟
 
 - **Busqueda de personajes:** Puedes buscar personajes por su número de identificación desde la barra de búsqueda. Además, hay un botón de "Random" que genera un personaje al azar. 
 
